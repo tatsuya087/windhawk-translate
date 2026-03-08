@@ -146,7 +146,7 @@ app:
           excluded: "Isključeno"
           customListsNote: ~
           patternsMatchCriticalSystemProcessesNote: ~
-      updateNotNeeded: "Instalirana verzija jednaka je najnovijoj"
+      updateNotNeeded: "Instalirana verzija jednaka je odabranoj verziji"
     version:
       preRelease: ~
       select: ~
@@ -212,7 +212,7 @@ app:
         description: "Po zadanom, Windhawk učitava dodatke u kritične procese sustava samo ako su izravno navedeni (npr. <0>critical.exe</0>), a ne putem uzoraka (<0>*</0> ili <0>*.exe</0>). Za više detalja o kritičnim procesima sustava, pogledajte <1>dokumentaciju</1>."
     changes:
       title: "Promjene u najnovijoj verziji"
-      noData: "Instalirana verzija jednaka je najnovijoj."
+      noData: "Instalirana verzija jednaka je odabranoj verziji."
       splitView: "Podijeljeni prikaz"
       expandLines_one: "Proširi jednu skrivenu liniju"
       expandLines_other: "Proširi {{count}} skrivenih linija"

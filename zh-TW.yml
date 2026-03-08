@@ -145,7 +145,7 @@ app:
           excluded: "排除"
           customListsNote: "已在「進階」分頁中為此 Mod 定義了自訂處理程序包含/排除清單"
           patternsMatchCriticalSystemProcessesNote: "包含清單模式將應用於此 Mod 的關鍵系統處理程序（在「進階」分頁中設定）"
-      updateNotNeeded: "已安裝的版本與最新版本相同"
+      updateNotNeeded: "已安裝的版本與所選版本相同"
     version:
       preRelease: "預覽版"
       select: "選擇"
@@ -211,7 +211,7 @@ app:
         description: "預設情況下，Windhawk 僅在關鍵系統處理程序被包含時才會載入 Mod，例如像 <0>critical.exe</0> 這樣的形式，而不是 <0>*</0> 或者 <0>*.exe</0> 這樣的形式。如需了解有關關鍵系統處理程序的更多詳細資訊，請參閱 <1>文件</1>。"
     changes:
       title: "最新版本變更"
-      noData: "已安裝的版本與最新版本相同。"
+      noData: "已安裝的版本與所選版本相同。"
       splitView: "分割視窗"
       expandLines_one: "展開一條隱藏的行"
       expandLines_other: "展開 {{count}} 條隱藏的行"

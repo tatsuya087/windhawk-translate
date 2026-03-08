@@ -146,7 +146,7 @@ app:
           excluded: "Excluse"
           customListsNote: "Au fost definite liste personalizate de includere/excludere a proceselor pentru acest mod în fila Avansat"
           patternsMatchCriticalSystemProcessesNote: "Pattern-urile din lista de includere sunt luate în considerare pentru procesele critice de sistem pentru acest mod (setate în fila Avansat)"
-      updateNotNeeded: "Versiunea instalată este identică cu cea recentă"
+      updateNotNeeded: "Versiunea instalată este identică cu cea selectată"
     version:
       preRelease: "prelansare"
       select: "Selectează"
@@ -212,7 +212,7 @@ app:
         description: "În mod normal, Windhawk încarcă moduri în procesele de sistem critice numai dacă procesul este inclus fără pattern-uri, de exemplu <0>proces_critic.exe</0>, nu <0>*</0> sau <0>*.exe</0>. Pentru mai multe detalii despre procesele de sistem critice, consultă <1>documentația</1>."
     changes:
       title: "Modificări în cea mai recentă versiune"
-      noData: "Versiunea instalată este identică cu cea mai recentă."
+      noData: "Versiunea instalată este identică cu cea selectată."
       splitView: "Vizualizare divizată"
       expandLines_one: "Extinde o linie ascunsă"
       expandLines_other: "Extinde {{count}} de linii ascunse"

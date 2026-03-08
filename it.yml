@@ -146,7 +146,7 @@ app:
           excluded: "Esclusi"
           customListsNote: ~
           patternsMatchCriticalSystemProcessesNote: ~
-      updateNotNeeded: "La versione installata è identica all'ultima versione"
+      updateNotNeeded: "La versione installata è identica alla versione selezionata"
     version:
       preRelease: ~
       select: ~
@@ -212,7 +212,7 @@ app:
         description: ~
     changes:
       title: "Ultime modifiche della versione"
-      noData: "La versione installata è identica all'ultima versione."
+      noData: "La versione installata è identica alla versione selezionata."
       splitView: "Dividi vista"
       expandLines_one: "Espandi una linea nascosta"
       expandLines_other: "Espandi {{count}} linee nascoste"

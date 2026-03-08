@@ -147,7 +147,7 @@ app:
           excluded: "Винятки"
           customListsNote: ~
           patternsMatchCriticalSystemProcessesNote: ~
-      updateNotNeeded: "Встановлена версія ідентична останній"
+      updateNotNeeded: "Встановлена версія ідентична обраній версії"
     version:
       preRelease: ~
       select: ~
@@ -213,7 +213,7 @@ app:
         description: ~
     changes:
       title: "Зміни в останній версії:"
-      noData: "Встановлена версія ідентична останній"
+      noData: "Встановлена версія ідентична обраній версії."
       splitView: "Розділити вид"
       expandLines_one: "Розгорнути один прихований рядок"
       expandLines_other: "Розгорнути {{count}} прихованих рядків"

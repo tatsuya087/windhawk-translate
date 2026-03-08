@@ -145,7 +145,7 @@ app:
           excluded: "Kizárva"
           customListsNote: ~
           patternsMatchCriticalSystemProcessesNote: ~
-      updateNotNeeded: "A telepített verzió megegyezik a legújabb verzióval"
+      updateNotNeeded: "A telepített verzió megegyezik a kiválasztott verzióval"
     version:
       preRelease: ~
       select: ~
@@ -211,7 +211,7 @@ app:
         description: ~
     changes:
       title: "Legújabb verzió változásai"
-      noData: "A telepített verzió megegyezik a legújabb verzióval."
+      noData: "A telepített verzió megegyezik a kiválasztott verzióval."
       splitView: "Megosztott nézet"
       expandLines_one: "Egy rejtett sor kibontása"
       expandLines_other: "{{count}} rejtett sor kibontása"

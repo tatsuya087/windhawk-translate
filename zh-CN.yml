@@ -145,7 +145,7 @@ app:
           excluded: "不包括"
           customListsNote: "已在“高级”选项卡中为此模组定义了自定义进程包含/排除列表"
           patternsMatchCriticalSystemProcessesNote: "包含列表模式将应用于此模组的关键系统进程（在“高级”选项卡中设置）"
-      updateNotNeeded: "安装的版本与最新版本相同"
+      updateNotNeeded: "安装的版本与所选版本相同"
     version:
       preRelease: "预览版"
       select: "选择"
@@ -211,7 +211,7 @@ app:
         description: "为了安全起见，Windhawk 默认仅在明确指定了系统关键进程名称时（即不使用通配符，如 <0>critical.exe</0> 时）才会在相应的关键进程中加载模组，对于通配符（如 <0>*</0> 或 <0>*.exe</0>）默认是不会匹配到系统关键进程的。有关系统关键进程的详细信息，请参阅 <1>相关文档</1>。"
     changes:
       title: "新版本更新内容"
-      noData: "安装的版本与最新版本相同。"
+      noData: "安装的版本与所选版本相同。"
       splitView: "拆分视图"
       expandLines_one: "展开1行隐藏行"
       expandLines_other: "展开{{count}}行隐藏行"

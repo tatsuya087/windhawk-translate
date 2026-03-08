@@ -145,7 +145,7 @@ app:
           excluded: "Ausgeschlossen"
           customListsNote: "Benutzerdefinierte Prozess-Ein-/Ausschlusslisten wurden für diese Mod im Erweitert-Register definiert"
           patternsMatchCriticalSystemProcessesNote: "Einschlusslistenmuster werden für kritische Systemprozesse für diese Mod berücksichtigt (festgelegt im Erweitert-Register)"
-      updateNotNeeded: "Die installierte Version ist identisch mit der neusten Version."
+      updateNotNeeded: "Die installierte Version ist identisch mit der ausgewählten Version."
     version:
       preRelease: "Vorabversion"
       select: "Wählen"
@@ -211,7 +211,7 @@ app:
         description: "Standardmäßig lädt Windhawk Mods in kritischen Systemprozessen nur, wenn der Prozess ohne Muster angegeben wird, z.B. <0>critical.exe</0>, nicht <0>*</0> oder <0>*.exe</0>. Weitere Details zu kritischen Systemprozessen sind in <1>der Dokumentation</1> zu finden."
     changes:
       title: "Letzte Versionsänderungen"
-      noData: "Die installierte Version ist identisch mit der neusten Version."
+      noData: "Die installierte Version ist identisch mit der ausgewählten Version."
       splitView: "Ansicht aufteilen"
       expandLines_one: "Zeige eine versteckte Zeile"
       expandLines_other: "Zeige {{count}} versteckte Zeilen"

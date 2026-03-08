@@ -146,7 +146,7 @@ app:
           excluded: "Excluido"
           customListsNote: ~
           patternsMatchCriticalSystemProcessesNote: ~
-      updateNotNeeded: "La versión instalada es idéntica a la última versión"
+      updateNotNeeded: "La versión instalada es idéntica a la versión seleccionada"
     version:
       preRelease: ~
       select: ~
@@ -212,7 +212,7 @@ app:
         description: "Por defecto, Windhawk solo carga mods en procesos críticos si solo está incluido en la lista sin *, por ejemplo: <0>critico.exe</0> pero no <0>*</0> o <0>*.exe</0>. Para más detalles, por favor consulte <1>la documentación</1>."
     changes:
       title: "Últimos cambios de versión"
-      noData: "La versión instalada es idéntica a la última versión."
+      noData: "La versión instalada es idéntica a la versión seleccionada."
       splitView: "Vista dividida"
       expandLines_one: "Expandir una línea oculta"
       expandLines_other: "Expandir {{count}} líneas ocultas"

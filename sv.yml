@@ -145,7 +145,7 @@ app:
           excluded: "Uteslutna"
           customListsNote: ~
           patternsMatchCriticalSystemProcessesNote: ~
-      updateNotNeeded: "Den installerade versionen är identisk med den senaste versionen"
+      updateNotNeeded: "Den installerade versionen är identisk med den valda versionen"
     version:
       preRelease: ~
       select: ~
@@ -211,7 +211,7 @@ app:
         description: ~
     changes:
       title: "Senaste versionsändringar"
-      noData: "Den installerade versionen är identisk med den senaste versionen."
+      noData: "Den installerade versionen är identisk med den valda versionen."
       splitView: "Delad vy"
       expandLines_one: "Expandera en dold rad"
       expandLines_other: "Expandera {{count}} dolda rader"

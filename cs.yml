@@ -147,7 +147,7 @@ app:
           excluded: "Vyloučeno"
           customListsNote: ~
           patternsMatchCriticalSystemProcessesNote: ~
-      updateNotNeeded: "Je nainstalována nejnovější verze"
+      updateNotNeeded: "Nainstalovaná verze je shodná s vybranou verzí"
     version:
       preRelease: ~
       select: ~
@@ -213,7 +213,7 @@ app:
         description: "Ve výchozím nastavení Windhawk načítá mody pouze v kritických systémových procesech, pokud je proces zahrnut bez vzorů, např. <0>critical.exe</0>, nikoli <0>*</0> nebo <0>*.exe</0>. Další podrobnosti o kritických systémových procesech naleznete v <1>dokumentace</1>."
     changes:
       title: "Změny v nejnovější verzi"
-      noData: "Je nainstalována nejnovější verze."
+      noData: "Nainstalovaná verze je shodná s vybranou verzí."
       splitView: "Oddělené prohlížení"
       expandLines_one: "Rozbalit jeden skrytý řádek"
       expandLines_other: "Rozbalit {{count}} skrytých řádků"

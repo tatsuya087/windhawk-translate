@@ -145,7 +145,7 @@ app:
           excluded: "Dikecualikan"
           customListsNote: ~
           patternsMatchCriticalSystemProcessesNote: ~
-      updateNotNeeded: "Versi yang terinstal identik dengan versi terbaru"
+      updateNotNeeded: "Versi yang terinstal identik dengan versi yang dipilih"
     version:
       preRelease: ~
       select: ~
@@ -211,7 +211,7 @@ app:
         description: ~
     changes:
       title: "Perubahan Versi Saat Ini"
-      noData: "Versi yang terpasang identik dengan versi saat ini."
+      noData: "Versi yang terpasang identik dengan versi yang dipilih."
       splitView: "Tampilan berbagi"
       expandLines_one: "Perlebar salah satu baris tersembunyi"
       expandLines_other: "Perlebar {{count}} baris tersembunyi"

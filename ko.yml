@@ -145,7 +145,7 @@ app:
           excluded: "제외 프로세스"
           customListsNote: "사용자 지정 프로세스 포함/제외 목록은 모드의 [고급] 탭에서 정의됩니다"
           patternsMatchCriticalSystemProcessesNote: "포함 목록 패턴은 이 모드의 중대한 시스템 프로세스를 위해 고려됩니다 ([고급] 탭에서 설정)"
-      updateNotNeeded: "설치되어 있는 버전이 최신 버전입니다"
+      updateNotNeeded: "설치되어 있는 버전이 선택한 버전과 동일합니다"
     version:
       preRelease: "프리릴리스"
       select: "선택"
@@ -211,7 +211,7 @@ app:
         description: "기본값으로 Windhawk는 프로세스가 패턴(와일드카드)으로 포함될 경우(예: <0>*</0> 또는 <0>*.exe</0>)에는 모드를 중대한 시스템 프로세스 내에서는 불러오지 않습니다. (허용하는 예: <0>critical.exe</0>) 중대한 시스템 프로세스에 대한 자세한 정보는 <1>문서</1>를 참조해주세요."
     changes:
       title: "소스 코드 변경사항"
-      noData: "이 버전이 최신 버전입니다."
+      noData: "설치되어 있는 버전이 선택한 버전과 동일합니다."
       splitView: "분할 보기"
       expandLines_one: "숨겨진 줄 1개 확장"
       expandLines_other: "숨겨진 줄 {{count}}개 확장"

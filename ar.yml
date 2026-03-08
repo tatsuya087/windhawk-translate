@@ -149,7 +149,7 @@ app:
           excluded: "مستبعد"
           customListsNote: ~
           patternsMatchCriticalSystemProcessesNote: ~
-      updateNotNeeded: "الإصدار المثبت مطابق لأحدث إصدار"
+      updateNotNeeded: "الإصدار المثبت مطابق للإصدار المحدد"
     version:
       preRelease: ~
       select: ~
@@ -215,7 +215,7 @@ app:
         description: "افتراضيًا، يقوم Windhawk بتحميل المودات في العمليات النظامية الحرجة فقط إذا تم تضمين العملية بدون أنماط، مثل <0>critical.exe</0>، وليس <0>*</0> أو <0>*.exe</0>. لمزيد من التفاصيل حول العمليات النظامية الحرجة، يرجى الرجوع إلى <1>التوثيق</1>."
     changes:
       title: "تغييرات أحدث إصدار"
-      noData: "الإصدار المثبت مطابق لأحدث إصدار."
+      noData: "الإصدار المثبت مطابق للإصدار المحدد."
       splitView: "عرض مقسم"
       expandLines_one: "توسيع سطر مخفي واحد"
       expandLines_other: "توسيع {{count}} سطر مخفي"

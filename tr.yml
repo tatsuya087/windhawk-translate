@@ -145,7 +145,7 @@ app:
           excluded: "Hariç"
           customListsNote: "Özel listeler, Gelişmiş sekmesi altından yapılandırılabilir."
           patternsMatchCriticalSystemProcessesNote: "Bu mod için kritik sistem işlemleri için dahil etme listesi kalıpları dikkate alınır (Gelişmiş sekmesinde ayarlanır)."
-      updateNotNeeded: "Yüklü sürüm, en son sürümle aynı"
+      updateNotNeeded: "Yüklü sürüm, seçilen sürümle aynı"
     version:
       preRelease: "Ön sürüm"
       select: "Seç"
@@ -211,7 +211,7 @@ app:
         description: "Tanımlanan desenler, <0>critical.exe</0> gibi kritik sistem işlemleriyle eşleşiyor. Güvenlik ve sistem kararlılığı nedeniyle Windhawk varsayılan olarak bu işlemlere mod yüklemez. Daha fazla bilgi için <1>belgelere</1> bakın."
     changes:
       title: "Son Sürüm Değişiklikleri"
-      noData: "Yüklü sürüm, en son sürümle aynı."
+      noData: "Yüklü sürüm, seçilen sürümle aynı."
       splitView: "Bölünmüş görünüm"
       expandLines_one: "Bir gizli satırı genişlet"
       expandLines_other: "{{count}} gizli satırı genişlet"

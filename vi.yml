@@ -145,7 +145,7 @@ app:
           excluded: "Đã loại trừ"
           customListsNote: ~
           patternsMatchCriticalSystemProcessesNote: ~
-      updateNotNeeded: "Phiên bản đã cài đặt giống hệt với phiên bản mới nhất"
+      updateNotNeeded: "Phiên bản đã cài đặt giống hệt với phiên bản đã chọn"
     version:
       preRelease: ~
       select: ~
@@ -211,7 +211,7 @@ app:
         description: "Theo mặc định, Windhawk chỉ tải các bản mod trong các quy trình hệ thống quan trọng nếu quy trình được bao gồm mà không có mẫu, ví dụ: <0>critical.exe</0>, không phải <0>*</0> hoặc <0>*.exe</0>. Để biết thêm chi tiết về các quy trình hệ thống quan trọng, vui lòng tham khảo <1>tài liệu</1>."
     changes:
       title: "Thay đổi phiên bản mới nhất"
-      noData: "Phiên bản đã cài đặt giống hệt với phiên bản mới nhất."
+      noData: "Phiên bản đã cài đặt giống hệt với phiên bản đã chọn."
       splitView: "Chế độ chia đôi"
       expandLines_one: "Mở rộng một dòng bị ẩn"
       expandLines_other: "Mở rộng {{count}} dòng bị ẩn"

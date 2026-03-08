@@ -145,7 +145,7 @@ app:
           excluded: "Ekskluderede"
           customListsNote: ~
           patternsMatchCriticalSystemProcessesNote: ~
-      updateNotNeeded: "Den installerede version er identisk med den seneste version"
+      updateNotNeeded: "Den installerede version er identisk med den valgte version"
     version:
       preRelease: ~
       select: ~
@@ -211,7 +211,7 @@ app:
         description: ~
     changes:
       title: "Seneste versionsændringer"
-      noData: "Den installerede version er identisk med den seneste version."
+      noData: "Den installerede version er identisk med den valgte version."
       splitView: "Delt visning"
       expandLines_one: "Udvid en gemt linje"
       expandLines_other: "Udvid {{count}} gemte linjer"

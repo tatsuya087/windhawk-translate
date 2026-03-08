@@ -145,7 +145,7 @@ app:
           excluded: "Uitgesloten"
           customListsNote: "Aangepaste proces opname-/uitsluitingslijsten zijn voor deze mod gedefinieerd in het Geavanceerd tabblad."
           patternsMatchCriticalSystemProcessesNote: "Opnamelijst patronen worden overwogen voor kritieke systeemprocessen voor deze mod (ingesteld in het Geavanceerd tabblad)"
-      updateNotNeeded: "Geïnstalleerde versie is identiek aan de nieuwste versie"
+      updateNotNeeded: "Geïnstalleerde versie is identiek aan de geselecteerde versie"
     version:
       preRelease: "pre-release"
       select: "Selecteren"
@@ -211,7 +211,7 @@ app:
         description: "Standaard laadt Windhawk alleen mods in kritieke systeemprocessen als het proces zonder patronen is opgenomen, bijv. <0>critical.exe</0>, niet <0>*</0> of <0>*.exe</0>. Raadpleeg <1>de documentatie</1> voor meer informatie over kritieke systeemprocessen."
     changes:
       title: "Wijzigingen laatste versie"
-      noData: "Geïnstalleerde versie is identiek aan de nieuwste versie."
+      noData: "Geïnstalleerde versie is identiek aan de geselecteerde versie."
       splitView: "Gesplitste weergave"
       expandLines_one: "Eén verborgen regel uitvouwen"
       expandLines_other: "{{count}} verborgen regels uitvouwen"

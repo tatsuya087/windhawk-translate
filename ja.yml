@@ -145,7 +145,7 @@ app:
           excluded: "除外"
           customListsNote: "この Mod は高度タブのカスタムプロセス対象/除外リストに定義されています"
           patternsMatchCriticalSystemProcessesNote: "重要なシステムプロセスの内包リストパターンがこの Mod に対して考慮されます (高度タブで設定されています)"
-      updateNotNeeded: "インストールされているバージョンは最新です。"
+      updateNotNeeded: "インストールされているバージョンは選択したバージョンと同一です。"
     version:
       preRelease: "プレリリース"
       select: "選択"
@@ -211,7 +211,7 @@ app:
         description: "説明: 既定では Windhawk はプロセスのパターンなし (例: <0>*</0> または <0>*.exe</0> ではなく <0>critical.exe</0>) で内包されている場合でのみ、重要なシステムプロセスに Mod を読み込みます。重要なシステムプロセスの詳細については<1>ドキュメント</1>を参照してください。"
     changes:
       title: "最新バージョンの変更点"
-      noData: "インストールされているバージョンは最新です。"
+      noData: "インストールされているバージョンは選択したバージョンと同一です。"
       splitView: "分割で表示"
       expandLines_one: "1 個の隠れた行を展開"
       expandLines_other: "{{count}} 個の隠れた行を展開"
