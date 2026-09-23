@@ -140,6 +140,55 @@ app:
     users_one: "{{formattedCount}} utilizador"
     users_many: "{{formattedCount}} utilizadores"
     users_other: "{{formattedCount}} utilizadores"
+    reviews_one: ~
+    reviews_many: ~
+    reviews_other: ~
+    reviews:
+      label: ~
+      title: ~
+      none: ~
+      showMore: ~
+      loadFailed: ~
+      write: ~
+      reply: ~
+      collapse: ~
+      expand: ~
+      vote: ~
+      voted: ~
+      voteFailed: ~
+      undo: ~
+      undoFailed: ~
+      sort:
+        label: ~
+        top: ~
+        newest: ~
+      form:
+        name: ~
+        email: ~
+        emailHint: ~
+        contentHint: ~
+        submit: ~
+        nameRequired: ~
+        nameTooLong: ~
+        emailInvalid: ~
+        review:
+          content: ~
+          version: ~
+          posted: ~
+          failed: ~
+          contentRequired: ~
+          contentTooShort: ~
+          contentTooLong: ~
+          contentInvalid: ~
+        reply:
+          content: ~
+          version: ~
+          posted: ~
+          failed: ~
+          contentRequired: ~
+          contentTooShort: ~
+          contentTooLong: ~
+          contentInvalid: ~
     notRated: "Este mod ainda não foi classificado"
     loggingEnabledInAdvancedTab: "O registo de depuração está ativado no separador Avançado do mod"
   modDetails:
@@ -173,11 +222,29 @@ app:
     details:
       title: "Detalhes"
       noData: "Faltam detalhes sobre o mod."
+    modLink:
+      openInBrowser: ~
+      copyLink: ~
+      copied: ~
+      share: ~
+      linkCopied: ~
     settings:
       title: "Definições"
       noData: "Não há definições de mod disponíveis."
       saveButton: "Guardar definições"
       sampleValue: "Valor de exemplo"
+      pickColor: ~
+      browseFile: ~
+      browseFolder: ~
+      hotkeyEmpty: ~
+      hotkeyNotSet: ~
+      hotkeyPressKey: ~
+      hotkeyClear: ~
+      hotkeyEdit: ~
+      hotkeyKey: ~
+      hotkeyStoredAs: ~
+      hotkeyNotRecorded: ~
+      hotkeyCaptureUnavailable: ~
       arrayItemAdd: "Adicionar novo item"
       arrayItemMoveUp: ~
       arrayItemMoveDown: ~
@@ -584,6 +651,7 @@ app:
     stopCompilation: "Parar compilação"
     preview: "Pré-visualizar mod"
     showLogOutput: "Mostrar saída do registo"
+    remove: ~
     exit: "Sair do modo de edição"
     exitConfirmation: "As alterações desde a última compilação bem-sucedida serão perdidas"
     exitButtonOk: "Sair"
@@ -611,6 +679,8 @@ app:
       transparentDescription: "Os mods que o Windhawk oferece não são caixas negras. Cada mod vem em forma de código-fonte, que pode ser revisto para garantir que faz exatamente o que diz."
     modDetails:
       getWindhawk: "Obtenha o Windhawk para instalar este mod"
+      openInWindhawk: ~
+      notInstalled: ~
     links:
       news: "Notícias"
       windhawkNews: "Notícias do Windhawk — Ramen Software"

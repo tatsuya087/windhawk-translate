@@ -139,6 +139,54 @@ app:
     noDescription: "(କୌଣସି ବର୍ଣ୍ଣନା ନାହିଁ)"
     users_one: "{{formattedCount}} ବ୍ୟବହାରକାରୀ"
     users_other: "{{formattedCount}} ବ୍ୟବହାରକାରୀମାନେ"
+    reviews_one: ~
+    reviews_other: ~
+    reviews:
+      label: ~
+      title: ~
+      none: ~
+      showMore: ~
+      loadFailed: ~
+      write: ~
+      reply: ~
+      collapse: ~
+      expand: ~
+      vote: ~
+      voted: ~
+      voteFailed: ~
+      undo: ~
+      undoFailed: ~
+      sort:
+        label: ~
+        top: ~
+        newest: ~
+      form:
+        name: ~
+        email: ~
+        emailHint: ~
+        contentHint: ~
+        submit: ~
+        nameRequired: ~
+        nameTooLong: ~
+        emailInvalid: ~
+        review:
+          content: ~
+          version: ~
+          posted: ~
+          failed: ~
+          contentRequired: ~
+          contentTooShort: ~
+          contentTooLong: ~
+          contentInvalid: ~
+        reply:
+          content: ~
+          version: ~
+          posted: ~
+          failed: ~
+          contentRequired: ~
+          contentTooShort: ~
+          contentTooLong: ~
+          contentInvalid: ~
     notRated: "ଏହି ମଡ୍‌କୁ ଏପର୍ଯ୍ୟନ୍ତ କୌଣସି ରେଟିଂ ମିଳିନାହିଁ"
     loggingEnabledInAdvancedTab: "ମଡ୍‌ର ଆଡଭାନ୍ସଡ୍ ଟ୍ୟାବ୍‌ରେ ଡିବଗ୍ ଲଗିଂ ସକ୍ରିୟ ଅଛି"
   modDetails:
@@ -172,11 +220,29 @@ app:
     details:
       title: "ବିବରଣୀ"
       noData: "ମଡ୍ ବିବରଣୀ ଅନୁପସ୍ଥିତ।"
+    modLink:
+      openInBrowser: ~
+      copyLink: ~
+      copied: ~
+      share: ~
+      linkCopied: ~
     settings:
       title: "ସେଟିଙ୍ଗସ"
       noData: "କୌଣସି ମଡ୍ ସେଟିଙ୍ଗସ ଉପଲବ୍ଧ ନାହିଁ।"
       saveButton: "ସେଟିଙ୍ଗସ ସେଭ୍ କରନ୍ତୁ"
       sampleValue: "ନମୁନା ମୂଲ୍ୟ"
+      pickColor: ~
+      browseFile: ~
+      browseFolder: ~
+      hotkeyEmpty: ~
+      hotkeyNotSet: ~
+      hotkeyPressKey: ~
+      hotkeyClear: ~
+      hotkeyEdit: ~
+      hotkeyKey: ~
+      hotkeyStoredAs: ~
+      hotkeyNotRecorded: ~
+      hotkeyCaptureUnavailable: ~
       arrayItemAdd: "ନୂତନ ଆଇଟମ୍ ଯୋଡ଼ନ୍ତୁ"
       arrayItemMoveUp: ~
       arrayItemMoveDown: ~
@@ -568,6 +634,7 @@ app:
     stopCompilation: "କମ୍ପାଇଲେସନ୍ ବନ୍ଦ କରନ୍ତୁ"
     preview: "ମଡ୍ ପ୍ରିଭ୍ୟୁ"
     showLogOutput: "ଲଗ୍ ଆଉଟପୁଟ୍ ଦେଖାନ୍ତୁ"
+    remove: ~
     exit: "ଏଡିଟିଂ ମୋଡ୍‌ରୁ ବାହାରନ୍ତୁ"
     exitConfirmation: "ଶେଷ ସଫଳ କମ୍ପାଇଲେସନ୍ ପରର ପରିବର୍ତ୍ତନଗୁଡ଼ିକ ନଷ୍ଟ ହୋଇଯିବ"
     exitButtonOk: "ବାହାରନ୍ତୁ"
@@ -595,6 +662,8 @@ app:
       transparentDescription: "ପ୍ରତ୍ୟେକ ମଡ୍ ସୋର୍ସ କୋଡ୍ ଆକାରରେ ଆସେ, ଯାହାକୁ ଯେକେହି ଯାଞ୍ଚ କରିପାରିବେ।"
     modDetails:
       getWindhawk: "ଏହି ମଡ୍ ଇନଷ୍ଟଲ୍ କରିବା ପାଇଁ Windhawk ପାଆନ୍ତୁ"
+      openInWindhawk: ~
+      notInstalled: ~
     links:
       news: "ଖବର"
       windhawkNews: "Windhawk ଖବର - Ramen Software"

@@ -138,6 +138,53 @@ app:
     editedLocally: "Mod はローカルで編集されました"
     noDescription: "(説明はありません)"
     users_other: "{{formattedCount}} 名のユーザー"
+    reviews_other: ~
+    reviews:
+      label: ~
+      title: ~
+      none: ~
+      showMore: ~
+      loadFailed: ~
+      write: ~
+      reply: ~
+      collapse: ~
+      expand: ~
+      vote: ~
+      voted: ~
+      voteFailed: ~
+      undo: ~
+      undoFailed: ~
+      sort:
+        label: ~
+        top: ~
+        newest: ~
+      form:
+        name: ~
+        email: ~
+        emailHint: ~
+        contentHint: ~
+        submit: ~
+        nameRequired: ~
+        nameTooLong: ~
+        emailInvalid: ~
+        review:
+          content: ~
+          version: ~
+          posted: ~
+          failed: ~
+          contentRequired: ~
+          contentTooShort: ~
+          contentTooLong: ~
+          contentInvalid: ~
+        reply:
+          content: ~
+          version: ~
+          posted: ~
+          failed: ~
+          contentRequired: ~
+          contentTooShort: ~
+          contentTooLong: ~
+          contentInvalid: ~
     notRated: "この Mod はまだ評価されていません"
     loggingEnabledInAdvancedTab: "デバッグログは Mod の高度タブで有効になっています"
   modDetails:
@@ -171,11 +218,29 @@ app:
     details:
       title: "詳細"
       noData: "Mod の詳細がありません。"
+    modLink:
+      openInBrowser: ~
+      copyLink: ~
+      copied: ~
+      share: ~
+      linkCopied: ~
     settings:
       title: "設定"
       noData: "利用可能な Mod の設定はありません。"
       saveButton: "設定を保存"
       sampleValue: "サンプルの値"
+      pickColor: ~
+      browseFile: ~
+      browseFolder: ~
+      hotkeyEmpty: ~
+      hotkeyNotSet: ~
+      hotkeyPressKey: ~
+      hotkeyClear: ~
+      hotkeyEdit: ~
+      hotkeyKey: ~
+      hotkeyStoredAs: ~
+      hotkeyNotRecorded: ~
+      hotkeyCaptureUnavailable: ~
       arrayItemAdd: "新規項目を追加"
       arrayItemMoveUp: ~
       arrayItemMoveDown: ~
@@ -553,6 +618,7 @@ app:
     stopCompilation: "コンパイルを停止"
     preview: "Mod をプレビュー"
     showLogOutput: "出力されたログを表示"
+    remove: ~
     exit: "編集モードを終了"
     exitConfirmation: "最後にコンパイルしてからの変更は失われます"
     exitButtonOk: "終了"
@@ -580,6 +646,8 @@ app:
       transparentDescription: "Windhawk が提供する Mod はブラックボックスではありません。各 Mod はソースコードの形式で提供されるため、Mod が記載通りに動作するかどうかを確認することができます。"
     modDetails:
       getWindhawk: "この Mod をインストールするには Windhawk を入手してください"
+      openInWindhawk: ~
+      notInstalled: ~
     links:
       news: "ニュース"
       windhawkNews: "Windhawk ニュース - Ramen Software"

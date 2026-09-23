@@ -138,6 +138,53 @@ app:
     editedLocally: "Mod đã được chỉnh sửa trên máy"
     noDescription: "(không có mô tả)"
     users_other: "{{formattedCount}} người dùng"
+    reviews_other: ~
+    reviews:
+      label: ~
+      title: ~
+      none: ~
+      showMore: ~
+      loadFailed: ~
+      write: ~
+      reply: ~
+      collapse: ~
+      expand: ~
+      vote: ~
+      voted: ~
+      voteFailed: ~
+      undo: ~
+      undoFailed: ~
+      sort:
+        label: ~
+        top: ~
+        newest: ~
+      form:
+        name: ~
+        email: ~
+        emailHint: ~
+        contentHint: ~
+        submit: ~
+        nameRequired: ~
+        nameTooLong: ~
+        emailInvalid: ~
+        review:
+          content: ~
+          version: ~
+          posted: ~
+          failed: ~
+          contentRequired: ~
+          contentTooShort: ~
+          contentTooLong: ~
+          contentInvalid: ~
+        reply:
+          content: ~
+          version: ~
+          posted: ~
+          failed: ~
+          contentRequired: ~
+          contentTooShort: ~
+          contentTooLong: ~
+          contentInvalid: ~
     notRated: "Mod này chưa được đánh giá"
     loggingEnabledInAdvancedTab: "Debug log đang được bật trong tab Nâng cao của mod"
   modDetails:
@@ -171,11 +218,29 @@ app:
     details:
       title: "Chi tiết"
       noData: "Không có thông tin chi tiết của mod."
+    modLink:
+      openInBrowser: ~
+      copyLink: ~
+      copied: ~
+      share: ~
+      linkCopied: ~
     settings:
       title: "Cài đặt"
       noData: "Mod này không có cài đặt nào."
       saveButton: "Lưu cài đặt"
       sampleValue: "Giá trị mẫu"
+      pickColor: ~
+      browseFile: ~
+      browseFolder: ~
+      hotkeyEmpty: ~
+      hotkeyNotSet: ~
+      hotkeyPressKey: ~
+      hotkeyClear: ~
+      hotkeyEdit: ~
+      hotkeyKey: ~
+      hotkeyStoredAs: ~
+      hotkeyNotRecorded: ~
+      hotkeyCaptureUnavailable: ~
       arrayItemAdd: "Thêm mục mới"
       arrayItemMoveUp: "Di chuyển lên"
       arrayItemMoveDown: "Di chuyển xuống"
@@ -553,6 +618,7 @@ app:
     stopCompilation: "Dừng biên dịch"
     preview: "Xem trước mod"
     showLogOutput: "Hiển thị log output"
+    remove: ~
     exit: "Thoát Chế độ chỉnh sửa"
     exitConfirmation: "Mọi thay đổi kể từ lần biên dịch thành công gần nhất sẽ bị mất!"
     exitButtonOk: "Thoát"
@@ -580,6 +646,8 @@ app:
       transparentDescription: "Các mod trên Windhawk không phải là những 'hộp đen'. Mỗi mod đều đi kèm với mã nguồn mở, giúp mọi người có thể tự kiểm tra để đảm bảo mod chỉ thực hiện đúng những gì nó mô tả."
     modDetails:
       getWindhawk: "Tải Windhawk để cài đặt mod này"
+      openInWindhawk: ~
+      notInstalled: ~
     links:
       news: "Tin tức"
       windhawkNews: "Tin tức Windhawk - Ramen Software"

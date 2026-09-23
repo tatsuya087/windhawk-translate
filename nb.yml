@@ -139,6 +139,54 @@ app:
     noDescription: "(ingen beskrivelse)"
     users_one: "{{formattedCount}} bruker"
     users_other: "{{formattedCount}} brukere"
+    reviews_one: ~
+    reviews_other: ~
+    reviews:
+      label: ~
+      title: ~
+      none: ~
+      showMore: ~
+      loadFailed: ~
+      write: ~
+      reply: ~
+      collapse: ~
+      expand: ~
+      vote: ~
+      voted: ~
+      voteFailed: ~
+      undo: ~
+      undoFailed: ~
+      sort:
+        label: ~
+        top: ~
+        newest: ~
+      form:
+        name: ~
+        email: ~
+        emailHint: ~
+        contentHint: ~
+        submit: ~
+        nameRequired: ~
+        nameTooLong: ~
+        emailInvalid: ~
+        review:
+          content: ~
+          version: ~
+          posted: ~
+          failed: ~
+          contentRequired: ~
+          contentTooShort: ~
+          contentTooLong: ~
+          contentInvalid: ~
+        reply:
+          content: ~
+          version: ~
+          posted: ~
+          failed: ~
+          contentRequired: ~
+          contentTooShort: ~
+          contentTooLong: ~
+          contentInvalid: ~
     notRated: "Denne modden har ikke blitt vurdert ennå"
     loggingEnabledInAdvancedTab: "Feilsøkingslogging er aktivert i Avansert-fanen til modden"
   modDetails:
@@ -172,11 +220,29 @@ app:
     details:
       title: "Detaljer"
       noData: "Mod-detaljer mangler."
+    modLink:
+      openInBrowser: ~
+      copyLink: ~
+      copied: ~
+      share: ~
+      linkCopied: ~
     settings:
       title: "Innstillinger"
       noData: "Ingen mod-innstillinger er tilgjengelige."
       saveButton: "Lagre innstillinger"
       sampleValue: "Eksempelverdi"
+      pickColor: ~
+      browseFile: ~
+      browseFolder: ~
+      hotkeyEmpty: ~
+      hotkeyNotSet: ~
+      hotkeyPressKey: ~
+      hotkeyClear: ~
+      hotkeyEdit: ~
+      hotkeyKey: ~
+      hotkeyStoredAs: ~
+      hotkeyNotRecorded: ~
+      hotkeyCaptureUnavailable: ~
       arrayItemAdd: "Legg til nytt element"
       arrayItemMoveUp: ~
       arrayItemMoveDown: ~
@@ -568,6 +634,7 @@ app:
     stopCompilation: "Stopp kompileringen"
     preview: "Forhåndsvis mod"
     showLogOutput: "Vis loggutdata"
+    remove: ~
     exit: "Avslutt redigeringsmodus"
     exitConfirmation: "Endringer siden forrige vellykkede kompilering vil gå tapt"
     exitButtonOk: "Avslutt"
@@ -595,6 +662,8 @@ app:
       transparentDescription: "Modsene som Windhawk tilbyr, er ikke svarte bokser. Hver mod leveres i form av kildekode, som kan gjennomgås for å sikre at modden gjør nøyaktig det den sier."
     modDetails:
       getWindhawk: "Last ned Windhawk for å installere denne modden"
+      openInWindhawk: ~
+      notInstalled: ~
     links:
       news: "Nyheter"
       windhawkNews: "Windhawk-nyheter - Ramen Software"

@@ -139,6 +139,54 @@ app:
     noDescription: "(tavsif yo‘q)"
     users_one: "{{formattedCount}} foydalanuvchi"
     users_other: "{{formattedCount}} foydalanuvchilar"
+    reviews_one: ~
+    reviews_other: ~
+    reviews:
+      label: ~
+      title: ~
+      none: ~
+      showMore: ~
+      loadFailed: ~
+      write: ~
+      reply: ~
+      collapse: ~
+      expand: ~
+      vote: ~
+      voted: ~
+      voteFailed: ~
+      undo: ~
+      undoFailed: ~
+      sort:
+        label: ~
+        top: ~
+        newest: ~
+      form:
+        name: ~
+        email: ~
+        emailHint: ~
+        contentHint: ~
+        submit: ~
+        nameRequired: ~
+        nameTooLong: ~
+        emailInvalid: ~
+        review:
+          content: ~
+          version: ~
+          posted: ~
+          failed: ~
+          contentRequired: ~
+          contentTooShort: ~
+          contentTooLong: ~
+          contentInvalid: ~
+        reply:
+          content: ~
+          version: ~
+          posted: ~
+          failed: ~
+          contentRequired: ~
+          contentTooShort: ~
+          contentTooLong: ~
+          contentInvalid: ~
     notRated: "Ushbu mod hali baholanmagan"
     loggingEnabledInAdvancedTab: "Nosozliklarni tuzatish jurnali modning kengaytirilgan sozlamalarida yoqilgan"
   modDetails:
@@ -172,11 +220,29 @@ app:
     details:
       title: "Tafsilotlar"
       noData: "Mod tafsilotlari mavjud emas."
+    modLink:
+      openInBrowser: ~
+      copyLink: ~
+      copied: ~
+      share: ~
+      linkCopied: ~
     settings:
       title: "Sozlamalar"
       noData: "Mod sozlamalari mavjud emas."
       saveButton: "Sozlamalarni saqlash"
       sampleValue: "Namuna qiymati"
+      pickColor: ~
+      browseFile: ~
+      browseFolder: ~
+      hotkeyEmpty: ~
+      hotkeyNotSet: ~
+      hotkeyPressKey: ~
+      hotkeyClear: ~
+      hotkeyEdit: ~
+      hotkeyKey: ~
+      hotkeyStoredAs: ~
+      hotkeyNotRecorded: ~
+      hotkeyCaptureUnavailable: ~
       arrayItemAdd: "Yangi element qo‘shish"
       arrayItemMoveUp: ~
       arrayItemMoveDown: ~
@@ -568,6 +634,7 @@ app:
     stopCompilation: "Kompilyatsiyani to‘xtatish"
     preview: "Modni ko‘rib chiqish"
     showLogOutput: "Jurnal chiqishini ko‘rsatish"
+    remove: ~
     exit: "Tahrirlash rejimidan chiqish"
     exitConfirmation: "Oxirgi muvaffaqiyatli kompilyatsiyadan keyingi o‘zgarishlar yo‘qoladi"
     exitButtonOk: "Chiqish"
@@ -595,6 +662,8 @@ app:
       transparentDescription: "Windhawk taklif qiladigan modlar \"qora qutilar\" emas. Har bir mod manba kodi ko‘rinishida bo‘lib, uni mod aytilgan ishni bajarayotganiga ishonch hosil qilish uchun ko‘rib chiqish mumkin."
     modDetails:
       getWindhawk: "Ushbu modni o‘rnatish uchun Windhawk'ni yuklab oling"
+      openInWindhawk: ~
+      notInstalled: ~
     links:
       news: "Yangiliklar"
       windhawkNews: "Windhawk yangiliklari - Ramen Software"

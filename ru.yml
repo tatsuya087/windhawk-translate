@@ -141,6 +141,56 @@ app:
     users_few: "{{formattedCount}} пользователя"
     users_many: "{{formattedCount}} пользователей"
     users_other: "{{formattedCount}} пользователей"
+    reviews_one: ~
+    reviews_few: ~
+    reviews_many: ~
+    reviews_other: ~
+    reviews:
+      label: ~
+      title: ~
+      none: ~
+      showMore: ~
+      loadFailed: ~
+      write: ~
+      reply: ~
+      collapse: ~
+      expand: ~
+      vote: ~
+      voted: ~
+      voteFailed: ~
+      undo: ~
+      undoFailed: ~
+      sort:
+        label: ~
+        top: ~
+        newest: ~
+      form:
+        name: ~
+        email: ~
+        emailHint: ~
+        contentHint: ~
+        submit: ~
+        nameRequired: ~
+        nameTooLong: ~
+        emailInvalid: ~
+        review:
+          content: ~
+          version: ~
+          posted: ~
+          failed: ~
+          contentRequired: ~
+          contentTooShort: ~
+          contentTooLong: ~
+          contentInvalid: ~
+        reply:
+          content: ~
+          version: ~
+          posted: ~
+          failed: ~
+          contentRequired: ~
+          contentTooShort: ~
+          contentTooLong: ~
+          contentInvalid: ~
     notRated: "Эта модификация ещё не была оценена"
     loggingEnabledInAdvancedTab: "Логирование включено на вкладке модификации «Дополнительно»"
   modDetails:
@@ -174,11 +224,29 @@ app:
     details:
       title: "Описание"
       noData: "Описание модификации отсутствует."
+    modLink:
+      openInBrowser: ~
+      copyLink: ~
+      copied: ~
+      share: ~
+      linkCopied: ~
     settings:
       title: "Настройки"
       noData: "Нет доступных настроек модификации."
       saveButton: "Сохранить настройки"
       sampleValue: "Пример значения"
+      pickColor: ~
+      browseFile: ~
+      browseFolder: ~
+      hotkeyEmpty: ~
+      hotkeyNotSet: ~
+      hotkeyPressKey: ~
+      hotkeyClear: ~
+      hotkeyEdit: ~
+      hotkeyKey: ~
+      hotkeyStoredAs: ~
+      hotkeyNotRecorded: ~
+      hotkeyCaptureUnavailable: ~
       arrayItemAdd: "Добавить новый элемент"
       arrayItemMoveUp: "Сдвинуть элемент вверх"
       arrayItemMoveDown: "Сдвинуть элемент вниз"
@@ -598,6 +666,7 @@ app:
     stopCompilation: "Остановить компиляцию"
     preview: "Просмотр модификации"
     showLogOutput: "Показать логи"
+    remove: ~
     exit: "Выйти из режима редактирования"
     exitConfirmation: "Изменения после последней успешной компиляции будут потеряны"
     exitButtonOk: "Выйти"
@@ -625,6 +694,8 @@ app:
       transparentDescription: "Модификации, которые предлагает Windhawk, не являются «котом в мешке». Каждая модификация представлена в виде исходного кода, который можно проверить, чтобы убедиться, что модификация выполняет именно то, что указано."
     modDetails:
       getWindhawk: "Скачать Windhawk для установки этой модификации"
+      openInWindhawk: ~
+      notInstalled: ~
     links:
       news: "Новости"
       windhawkNews: "Новости Windhawk - Ramen Software"

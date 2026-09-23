@@ -139,6 +139,54 @@ app:
     noDescription: "(কোনো বিবরণ নেই)"
     users_one: "{{formattedCount}} জন ব্যবহারকারী"
     users_other: "{{formattedCount}} জন ব্যবহারকারী"
+    reviews_one: ~
+    reviews_other: ~
+    reviews:
+      label: ~
+      title: ~
+      none: ~
+      showMore: ~
+      loadFailed: ~
+      write: ~
+      reply: ~
+      collapse: ~
+      expand: ~
+      vote: ~
+      voted: ~
+      voteFailed: ~
+      undo: ~
+      undoFailed: ~
+      sort:
+        label: ~
+        top: ~
+        newest: ~
+      form:
+        name: ~
+        email: ~
+        emailHint: ~
+        contentHint: ~
+        submit: ~
+        nameRequired: ~
+        nameTooLong: ~
+        emailInvalid: ~
+        review:
+          content: ~
+          version: ~
+          posted: ~
+          failed: ~
+          contentRequired: ~
+          contentTooShort: ~
+          contentTooLong: ~
+          contentInvalid: ~
+        reply:
+          content: ~
+          version: ~
+          posted: ~
+          failed: ~
+          contentRequired: ~
+          contentTooShort: ~
+          contentTooLong: ~
+          contentInvalid: ~
     notRated: "এই মডটিতে এখনো রেটিং দেওয়া হয়নি"
     loggingEnabledInAdvancedTab: "মডের অ্যাডভান্সড ট্যাবে ডিবাগ লগিং চালু করা রয়েছে"
   modDetails:
@@ -172,11 +220,29 @@ app:
     details:
       title: "বিস্তারিত"
       noData: "মডের বিস্তারিত তথ্য পাওয়া যায়নি।"
+    modLink:
+      openInBrowser: ~
+      copyLink: ~
+      copied: ~
+      share: ~
+      linkCopied: ~
     settings:
       title: "সেটিংস"
       noData: "কোনো মড সেটিংস উপলব্ধ নেই।"
       saveButton: "সেটিংস সেভ করুন"
       sampleValue: "স্যাম্পল মান"
+      pickColor: ~
+      browseFile: ~
+      browseFolder: ~
+      hotkeyEmpty: ~
+      hotkeyNotSet: ~
+      hotkeyPressKey: ~
+      hotkeyClear: ~
+      hotkeyEdit: ~
+      hotkeyKey: ~
+      hotkeyStoredAs: ~
+      hotkeyNotRecorded: ~
+      hotkeyCaptureUnavailable: ~
       arrayItemAdd: "নতুন আইটেম যোগ করুন"
       arrayItemMoveUp: ~
       arrayItemMoveDown: ~
@@ -568,6 +634,7 @@ app:
     stopCompilation: "কম্পাইলেশন থামান"
     preview: "মড প্রিভিউ দেখুন"
     showLogOutput: "লগ আউটপুট দেখান"
+    remove: ~
     exit: "এডিটিং মোড থেকে বের হন"
     exitConfirmation: "সর্বশেষ সফল কম্পাইলেশনের পরের পরিবর্তনগুলো হারিয়ে যাবে"
     exitButtonOk: "বের হন"
@@ -595,6 +662,8 @@ app:
       transparentDescription: "প্রতিটি মড সোর্স কোড আকারে উন্মুক্ত থাকে, যা দেখে নিশ্চিত হওয়া যায় মডটি কোনো ক্ষতিকর কাজ করছে না।"
     modDetails:
       getWindhawk: "এই মডটি ইনস্টল করতে Windhawk সংগ্রহ করুন"
+      openInWindhawk: ~
+      notInstalled: ~
     links:
       news: "সংবাদ"
       windhawkNews: "Windhawk নিউজ - Ramen Software"

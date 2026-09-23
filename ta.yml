@@ -139,6 +139,54 @@ app:
     noDescription: "(விளக்கம் இல்லை)"
     users_one: "{{formattedCount}} பயனர்"
     users_other: "{{formattedCount}} பயனர்கள்"
+    reviews_one: ~
+    reviews_other: ~
+    reviews:
+      label: ~
+      title: ~
+      none: ~
+      showMore: ~
+      loadFailed: ~
+      write: ~
+      reply: ~
+      collapse: ~
+      expand: ~
+      vote: ~
+      voted: ~
+      voteFailed: ~
+      undo: ~
+      undoFailed: ~
+      sort:
+        label: ~
+        top: ~
+        newest: ~
+      form:
+        name: ~
+        email: ~
+        emailHint: ~
+        contentHint: ~
+        submit: ~
+        nameRequired: ~
+        nameTooLong: ~
+        emailInvalid: ~
+        review:
+          content: ~
+          version: ~
+          posted: ~
+          failed: ~
+          contentRequired: ~
+          contentTooShort: ~
+          contentTooLong: ~
+          contentInvalid: ~
+        reply:
+          content: ~
+          version: ~
+          posted: ~
+          failed: ~
+          contentRequired: ~
+          contentTooShort: ~
+          contentTooLong: ~
+          contentInvalid: ~
     notRated: ~
     loggingEnabledInAdvancedTab: ~
   modDetails:
@@ -172,11 +220,29 @@ app:
     details:
       title: "விவரங்கள்"
       noData: "மாற்றம் விவரங்கள் இல்லை."
+    modLink:
+      openInBrowser: ~
+      copyLink: ~
+      copied: ~
+      share: ~
+      linkCopied: ~
     settings:
       title: "அமைப்புகள்"
       noData: "மாற்றம் அமைப்புகள் இல்லை."
       saveButton: "அமைப்புகளைச் சேமிக்கவும்"
       sampleValue: "மாதிரி மதிப்பு"
+      pickColor: ~
+      browseFile: ~
+      browseFolder: ~
+      hotkeyEmpty: ~
+      hotkeyNotSet: ~
+      hotkeyPressKey: ~
+      hotkeyClear: ~
+      hotkeyEdit: ~
+      hotkeyKey: ~
+      hotkeyStoredAs: ~
+      hotkeyNotRecorded: ~
+      hotkeyCaptureUnavailable: ~
       arrayItemAdd: "புதிய உருப்படியைச் சேர்"
       arrayItemMoveUp: ~
       arrayItemMoveDown: ~
@@ -568,6 +634,7 @@ app:
     stopCompilation: ~
     preview: "மாற்றம் முன்னோட்டம்"
     showLogOutput: "பதிவு வெளியீட்டை காட்டு"
+    remove: ~
     exit: "திருத்தும் முறையிலிருந்து வெளியேறு"
     exitConfirmation: "கடைசி வெற்றிகரமான கணக்கீட்டுக்கு பிறகு செய்யப்பட்ட மாற்றங்கள் இழக்கப்படும்"
     exitButtonOk: "வெளியேறு"
@@ -595,6 +662,8 @@ app:
       transparentDescription: ~
     modDetails:
       getWindhawk: ~
+      openInWindhawk: ~
+      notInstalled: ~
     links:
       news: ~
       windhawkNews: ~

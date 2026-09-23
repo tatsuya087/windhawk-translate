@@ -138,6 +138,53 @@ app:
     editedLocally: "模组已在本地编辑"
     noDescription: "（无描述）"
     users_other: "{{formattedCount}} 用户"
+    reviews_other: ~
+    reviews:
+      label: ~
+      title: ~
+      none: ~
+      showMore: ~
+      loadFailed: ~
+      write: ~
+      reply: ~
+      collapse: ~
+      expand: ~
+      vote: ~
+      voted: ~
+      voteFailed: ~
+      undo: ~
+      undoFailed: ~
+      sort:
+        label: ~
+        top: ~
+        newest: ~
+      form:
+        name: ~
+        email: ~
+        emailHint: ~
+        contentHint: ~
+        submit: ~
+        nameRequired: ~
+        nameTooLong: ~
+        emailInvalid: ~
+        review:
+          content: ~
+          version: ~
+          posted: ~
+          failed: ~
+          contentRequired: ~
+          contentTooShort: ~
+          contentTooLong: ~
+          contentInvalid: ~
+        reply:
+          content: ~
+          version: ~
+          posted: ~
+          failed: ~
+          contentRequired: ~
+          contentTooShort: ~
+          contentTooLong: ~
+          contentInvalid: ~
     notRated: "此模组暂无评分"
     loggingEnabledInAdvancedTab: "已在模组的高级选项卡中启用调试日志"
   modDetails:
@@ -171,11 +218,29 @@ app:
     details:
       title: "详情"
       noData: "无详情"
+    modLink:
+      openInBrowser: ~
+      copyLink: ~
+      copied: ~
+      share: ~
+      linkCopied: ~
     settings:
       title: "设置"
       noData: "当前模组无设置。"
       saveButton: "保存"
       sampleValue: "示例值"
+      pickColor: ~
+      browseFile: ~
+      browseFolder: ~
+      hotkeyEmpty: ~
+      hotkeyNotSet: ~
+      hotkeyPressKey: ~
+      hotkeyClear: ~
+      hotkeyEdit: ~
+      hotkeyKey: ~
+      hotkeyStoredAs: ~
+      hotkeyNotRecorded: ~
+      hotkeyCaptureUnavailable: ~
       arrayItemAdd: "增加新的条目"
       arrayItemMoveUp: ~
       arrayItemMoveDown: ~
@@ -553,6 +618,7 @@ app:
     stopCompilation: "停止编译"
     preview: "预览模组"
     showLogOutput: "显示输出的日志"
+    remove: ~
     exit: "退出编辑模式"
     exitConfirmation: "确认退出？自上次成功编译以来的更改将丢失"
     exitButtonOk: "退出"
@@ -580,6 +646,8 @@ app:
       transparentDescription: "Windhawk 提供的模组绝非“黑箱”。每个模组都提供源代码，用户可以查阅代码，确保模组的功能与其描述完全一致。"
     modDetails:
       getWindhawk: "获取 Windhawk 以安装此模组"
+      openInWindhawk: ~
+      notInstalled: ~
     links:
       news: "新闻"
       windhawkNews: "Windhawk 新闻 - Ramen Software"

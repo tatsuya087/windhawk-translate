@@ -139,6 +139,54 @@ app:
     noDescription: "(pa genyen deskripsyon)"
     users_one: "{{formattedCount}} itilizatè"
     users_other: "{{formattedCount}} itilizatè yo"
+    reviews_one: ~
+    reviews_other: ~
+    reviews:
+      label: ~
+      title: ~
+      none: ~
+      showMore: ~
+      loadFailed: ~
+      write: ~
+      reply: ~
+      collapse: ~
+      expand: ~
+      vote: ~
+      voted: ~
+      voteFailed: ~
+      undo: ~
+      undoFailed: ~
+      sort:
+        label: ~
+        top: ~
+        newest: ~
+      form:
+        name: ~
+        email: ~
+        emailHint: ~
+        contentHint: ~
+        submit: ~
+        nameRequired: ~
+        nameTooLong: ~
+        emailInvalid: ~
+        review:
+          content: ~
+          version: ~
+          posted: ~
+          failed: ~
+          contentRequired: ~
+          contentTooShort: ~
+          contentTooLong: ~
+          contentInvalid: ~
+        reply:
+          content: ~
+          version: ~
+          posted: ~
+          failed: ~
+          contentRequired: ~
+          contentTooShort: ~
+          contentTooLong: ~
+          contentInvalid: ~
     notRated: "Mod sa a po ko evalye"
     loggingEnabledInAdvancedTab: "Anrejistreman debogaj se aktif nan onglet avanse mod la"
   modDetails:
@@ -172,11 +220,29 @@ app:
     details:
       title: "Detay"
       noData: "Detay mod ap mankan."
+    modLink:
+      openInBrowser: ~
+      copyLink: ~
+      copied: ~
+      share: ~
+      linkCopied: ~
     settings:
       title: "Paramèt"
       noData: "Pa genyen okenn paramèt disponib pou mod sa a."
       saveButton: "Sove paramèt"
       sampleValue: "Valè echantiyon"
+      pickColor: ~
+      browseFile: ~
+      browseFolder: ~
+      hotkeyEmpty: ~
+      hotkeyNotSet: ~
+      hotkeyPressKey: ~
+      hotkeyClear: ~
+      hotkeyEdit: ~
+      hotkeyKey: ~
+      hotkeyStoredAs: ~
+      hotkeyNotRecorded: ~
+      hotkeyCaptureUnavailable: ~
       arrayItemAdd: "Ajoute nouvo atik"
       arrayItemMoveUp: ~
       arrayItemMoveDown: ~
@@ -568,6 +634,7 @@ app:
     stopCompilation: "Sispann konpilasyon"
     preview: "Fè Koutje Mod"
     showLogOutput: "Montre randman jounal"
+    remove: ~
     exit: "Sòti mòd koreksyon"
     exitConfirmation: "Chanjiman depi konpilasyon reyisi dènye a pral pèdi"
     exitButtonOk: "Kite"
@@ -595,6 +662,8 @@ app:
       transparentDescription: "Mod Windhawk ofri yo pa bwat nwa. Chak mod vini sou fòm kòd sous, ke ou ka revize pou asire w ke mod la fè egzakteman sa li di a."
     modDetails:
       getWindhawk: "Jwenn Windhawk pou enstale mod sa a"
+      openInWindhawk: ~
+      notInstalled: ~
     links:
       news: "Jounal"
       windhawkNews: "Windhawk News - Ramen Software"

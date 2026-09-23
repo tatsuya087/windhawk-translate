@@ -139,6 +139,54 @@ app:
     noDescription: "(təsvir yoxdur)"
     users_one: "{{formattedCount}} istifadəçi"
     users_other: "{{formattedCount}} istifadəçi"
+    reviews_one: ~
+    reviews_other: ~
+    reviews:
+      label: ~
+      title: ~
+      none: ~
+      showMore: ~
+      loadFailed: ~
+      write: ~
+      reply: ~
+      collapse: ~
+      expand: ~
+      vote: ~
+      voted: ~
+      voteFailed: ~
+      undo: ~
+      undoFailed: ~
+      sort:
+        label: ~
+        top: ~
+        newest: ~
+      form:
+        name: ~
+        email: ~
+        emailHint: ~
+        contentHint: ~
+        submit: ~
+        nameRequired: ~
+        nameTooLong: ~
+        emailInvalid: ~
+        review:
+          content: ~
+          version: ~
+          posted: ~
+          failed: ~
+          contentRequired: ~
+          contentTooShort: ~
+          contentTooLong: ~
+          contentInvalid: ~
+        reply:
+          content: ~
+          version: ~
+          posted: ~
+          failed: ~
+          contentRequired: ~
+          contentTooShort: ~
+          contentTooLong: ~
+          contentInvalid: ~
     notRated: "Hələ qiymətləndirilməyib"
     loggingEnabledInAdvancedTab: "Sazlama jurnalı modun genişləndirilmiş bölməsində aktivdir"
   modDetails:
@@ -172,11 +220,29 @@ app:
     details:
       title: "Təfərrüatlar"
       noData: "Mod təfərrüatları yoxdur."
+    modLink:
+      openInBrowser: ~
+      copyLink: ~
+      copied: ~
+      share: ~
+      linkCopied: ~
     settings:
       title: "Parametrlər"
       noData: "Mövcud mod parametri yoxdur."
       saveButton: "Parametrləri saxla"
       sampleValue: "Nümunə dəyər"
+      pickColor: ~
+      browseFile: ~
+      browseFolder: ~
+      hotkeyEmpty: ~
+      hotkeyNotSet: ~
+      hotkeyPressKey: ~
+      hotkeyClear: ~
+      hotkeyEdit: ~
+      hotkeyKey: ~
+      hotkeyStoredAs: ~
+      hotkeyNotRecorded: ~
+      hotkeyCaptureUnavailable: ~
       arrayItemAdd: "Yeni element əlavə et"
       arrayItemMoveUp: ~
       arrayItemMoveDown: ~
@@ -568,6 +634,7 @@ app:
     stopCompilation: "Kompilyasiyanı dayandır"
     preview: "Önbaxış rejimi"
     showLogOutput: "Jurnal çıxışını göstər"
+    remove: ~
     exit: "Redaktə rejimindən çıx"
     exitConfirmation: "Son uğurlu kompilyasiyadan sonra edilən dəyişikliklər itiriləcək"
     exitButtonOk: "Çıx"
@@ -595,6 +662,8 @@ app:
       transparentDescription: "Gizli heç nə yoxdur; bütün modların mənbə kodu açıqdır, nə quraşdırdığınızı bilirsiniz."
     modDetails:
       getWindhawk: "Windhawk-ı endir"
+      openInWindhawk: ~
+      notInstalled: ~
     links:
       news: "Xəbərlər"
       windhawkNews: "Yeniliklər"

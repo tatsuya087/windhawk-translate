@@ -140,6 +140,55 @@ app:
     users_one: "{{formattedCount}} utilizator"
     users_few: "{{formattedCount}} utilizatori"
     users_other: "{{formattedCount}} de utilizatori"
+    reviews_one: ~
+    reviews_few: ~
+    reviews_other: ~
+    reviews:
+      label: ~
+      title: ~
+      none: ~
+      showMore: ~
+      loadFailed: ~
+      write: ~
+      reply: ~
+      collapse: ~
+      expand: ~
+      vote: ~
+      voted: ~
+      voteFailed: ~
+      undo: ~
+      undoFailed: ~
+      sort:
+        label: ~
+        top: ~
+        newest: ~
+      form:
+        name: ~
+        email: ~
+        emailHint: ~
+        contentHint: ~
+        submit: ~
+        nameRequired: ~
+        nameTooLong: ~
+        emailInvalid: ~
+        review:
+          content: ~
+          version: ~
+          posted: ~
+          failed: ~
+          contentRequired: ~
+          contentTooShort: ~
+          contentTooLong: ~
+          contentInvalid: ~
+        reply:
+          content: ~
+          version: ~
+          posted: ~
+          failed: ~
+          contentRequired: ~
+          contentTooShort: ~
+          contentTooLong: ~
+          contentInvalid: ~
     notRated: "Acest mod nu a fost evaluat încă"
     loggingEnabledInAdvancedTab: "Jurnalele pentru depanare sunt activate în fila Avansat a modului"
   modDetails:
@@ -173,11 +222,29 @@ app:
     details:
       title: "Detalii"
       noData: "Detaliile modului lipsesc."
+    modLink:
+      openInBrowser: ~
+      copyLink: ~
+      copied: ~
+      share: ~
+      linkCopied: ~
     settings:
       title: "Setări"
       noData: "Nu sunt disponibile setări pentru acest mod."
       saveButton: "Salvează setările"
       sampleValue: "Valoarea eșantionului"
+      pickColor: ~
+      browseFile: ~
+      browseFolder: ~
+      hotkeyEmpty: ~
+      hotkeyNotSet: ~
+      hotkeyPressKey: ~
+      hotkeyClear: ~
+      hotkeyEdit: ~
+      hotkeyKey: ~
+      hotkeyStoredAs: ~
+      hotkeyNotRecorded: ~
+      hotkeyCaptureUnavailable: ~
       arrayItemAdd: "Adaugă un nou element"
       arrayItemMoveUp: "Mută elementul deasupra"
       arrayItemMoveDown: "Mută elementul dedesubt"
@@ -583,6 +650,7 @@ app:
     stopCompilation: "Oprește compilarea"
     preview: "Previzualizează modul"
     showLogOutput: "Arată ieșirea în jurnal"
+    remove: ~
     exit: "Ieșire din modul de editare"
     exitConfirmation: "Modificările de la ultima compilare reușită vor fi pierdute"
     exitButtonOk: "Ieșire"
@@ -610,6 +678,8 @@ app:
       transparentDescription: "Modurile pe care Windhawk le oferă nu sunt cutii negre. Fiecare mod vine sub formă de cod sursă care poate fi examinat pentru a te asigura că modul face exact ceea ce zice."
     modDetails:
       getWindhawk: "Obține Windhawk pentru a instala acest mod"
+      openInWindhawk: ~
+      notInstalled: ~
     links:
       news: "Știri"
       windhawkNews: "Știri Windhawk - Ramen Software"

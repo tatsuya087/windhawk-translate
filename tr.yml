@@ -139,6 +139,54 @@ app:
     noDescription: "(açıklama yok)"
     users_one: "{{formattedCount}} kullanıcı"
     users_other: "{{formattedCount}} kullanıcı"
+    reviews_one: ~
+    reviews_other: ~
+    reviews:
+      label: ~
+      title: ~
+      none: ~
+      showMore: ~
+      loadFailed: ~
+      write: ~
+      reply: ~
+      collapse: ~
+      expand: ~
+      vote: ~
+      voted: ~
+      voteFailed: ~
+      undo: ~
+      undoFailed: ~
+      sort:
+        label: ~
+        top: ~
+        newest: ~
+      form:
+        name: ~
+        email: ~
+        emailHint: ~
+        contentHint: ~
+        submit: ~
+        nameRequired: ~
+        nameTooLong: ~
+        emailInvalid: ~
+        review:
+          content: ~
+          version: ~
+          posted: ~
+          failed: ~
+          contentRequired: ~
+          contentTooShort: ~
+          contentTooLong: ~
+          contentInvalid: ~
+        reply:
+          content: ~
+          version: ~
+          posted: ~
+          failed: ~
+          contentRequired: ~
+          contentTooShort: ~
+          contentTooLong: ~
+          contentInvalid: ~
     notRated: "Henüz değerlendirilmemiş"
     loggingEnabledInAdvancedTab: "Hata ayıklama günlüğü modun gelişmiş sekmesinde etkin"
   modDetails:
@@ -172,11 +220,29 @@ app:
     details:
       title: "Ayrıntılar"
       noData: "Mod ayrıntıları eksik."
+    modLink:
+      openInBrowser: ~
+      copyLink: ~
+      copied: ~
+      share: ~
+      linkCopied: ~
     settings:
       title: "Ayarlar"
       noData: "Kullanılabilir mod ayarı yok."
       saveButton: "Ayarları kaydet"
       sampleValue: "Örnek değer"
+      pickColor: ~
+      browseFile: ~
+      browseFolder: ~
+      hotkeyEmpty: ~
+      hotkeyNotSet: ~
+      hotkeyPressKey: ~
+      hotkeyClear: ~
+      hotkeyEdit: ~
+      hotkeyKey: ~
+      hotkeyStoredAs: ~
+      hotkeyNotRecorded: ~
+      hotkeyCaptureUnavailable: ~
       arrayItemAdd: "Yeni öğe ekle"
       arrayItemMoveUp: ~
       arrayItemMoveDown: ~
@@ -568,6 +634,7 @@ app:
     stopCompilation: "Derlemeyi durdur"
     preview: "Önizleme Modu"
     showLogOutput: "Günlük Çıktısını Göster"
+    remove: ~
     exit: "Düzenleme Modundan Çık"
     exitConfirmation: "Son başarılı derlemeden bu yana yapılan değişiklikler kaybolacak"
     exitButtonOk: "Çık"
@@ -595,6 +662,8 @@ app:
       transparentDescription: "Gizli kapaklı iş yok; tüm modların kaynak kodu açıktır, ne yüklediğinizi bilirsiniz."
     modDetails:
       getWindhawk: "Windhawk'ı İndir"
+      openInWindhawk: ~
+      notInstalled: ~
     links:
       news: "Haberler"
       windhawkNews: "Gelişmeler"

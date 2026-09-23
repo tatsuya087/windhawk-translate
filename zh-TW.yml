@@ -138,6 +138,53 @@ app:
     editedLocally: "模組已在本地編輯"
     noDescription: "（無描述）"
     users_other: "{{formattedCount}} 位使用者"
+    reviews_other: ~
+    reviews:
+      label: ~
+      title: ~
+      none: ~
+      showMore: ~
+      loadFailed: ~
+      write: ~
+      reply: ~
+      collapse: ~
+      expand: ~
+      vote: ~
+      voted: ~
+      voteFailed: ~
+      undo: ~
+      undoFailed: ~
+      sort:
+        label: ~
+        top: ~
+        newest: ~
+      form:
+        name: ~
+        email: ~
+        emailHint: ~
+        contentHint: ~
+        submit: ~
+        nameRequired: ~
+        nameTooLong: ~
+        emailInvalid: ~
+        review:
+          content: ~
+          version: ~
+          posted: ~
+          failed: ~
+          contentRequired: ~
+          contentTooShort: ~
+          contentTooLong: ~
+          contentInvalid: ~
+        reply:
+          content: ~
+          version: ~
+          posted: ~
+          failed: ~
+          contentRequired: ~
+          contentTooShort: ~
+          contentTooLong: ~
+          contentInvalid: ~
     notRated: "此 Mod 暫無評分"
     loggingEnabledInAdvancedTab: "已在 Mod 的進階分頁中啟用偵錯記錄"
   modDetails:
@@ -171,11 +218,29 @@ app:
     details:
       title: "詳細資訊"
       noData: "模組詳細資訊缺失。"
+    modLink:
+      openInBrowser: ~
+      copyLink: ~
+      copied: ~
+      share: ~
+      linkCopied: ~
     settings:
       title: "設定"
       noData: "沒有可用的模組設定。"
       saveButton: "保存設定"
       sampleValue: "範例值"
+      pickColor: ~
+      browseFile: ~
+      browseFolder: ~
+      hotkeyEmpty: ~
+      hotkeyNotSet: ~
+      hotkeyPressKey: ~
+      hotkeyClear: ~
+      hotkeyEdit: ~
+      hotkeyKey: ~
+      hotkeyStoredAs: ~
+      hotkeyNotRecorded: ~
+      hotkeyCaptureUnavailable: ~
       arrayItemAdd: "新增項目"
       arrayItemMoveUp: ~
       arrayItemMoveDown: ~
@@ -553,6 +618,7 @@ app:
     stopCompilation: "停止編譯"
     preview: "預覽模組"
     showLogOutput: "顯示記錄輸出"
+    remove: ~
     exit: "退出編輯模式"
     exitConfirmation: "自上次成功編譯以來的更改將丟失"
     exitButtonOk: "退出"
@@ -580,6 +646,8 @@ app:
       transparentDescription: "Windhawk 提供的模組絕非「黑箱」。每個模組都提供原始碼，使用者可以檢視程式碼，確保模組的功能與其描述完全一致。"
     modDetails:
       getWindhawk: "取得 Windhawk 以安裝此模組"
+      openInWindhawk: ~
+      notInstalled: ~
     links:
       news: "新聞"
       windhawkNews: "Windhawk 新聞 - Ramen Software"

@@ -140,6 +140,55 @@ app:
     users_one: "{{formattedCount}} usuario"
     users_many: "{{formattedCount}} usuarios"
     users_other: "{{formattedCount}} usuarios"
+    reviews_one: ~
+    reviews_many: ~
+    reviews_other: ~
+    reviews:
+      label: ~
+      title: ~
+      none: ~
+      showMore: ~
+      loadFailed: ~
+      write: ~
+      reply: ~
+      collapse: ~
+      expand: ~
+      vote: ~
+      voted: ~
+      voteFailed: ~
+      undo: ~
+      undoFailed: ~
+      sort:
+        label: ~
+        top: ~
+        newest: ~
+      form:
+        name: ~
+        email: ~
+        emailHint: ~
+        contentHint: ~
+        submit: ~
+        nameRequired: ~
+        nameTooLong: ~
+        emailInvalid: ~
+        review:
+          content: ~
+          version: ~
+          posted: ~
+          failed: ~
+          contentRequired: ~
+          contentTooShort: ~
+          contentTooLong: ~
+          contentInvalid: ~
+        reply:
+          content: ~
+          version: ~
+          posted: ~
+          failed: ~
+          contentRequired: ~
+          contentTooShort: ~
+          contentTooLong: ~
+          contentInvalid: ~
     notRated: ~
     loggingEnabledInAdvancedTab: ~
   modDetails:
@@ -173,11 +222,29 @@ app:
     details:
       title: "Detalles"
       noData: "Faltan detalles de mod."
+    modLink:
+      openInBrowser: ~
+      copyLink: ~
+      copied: ~
+      share: ~
+      linkCopied: ~
     settings:
       title: "Ajustes"
       noData: "No hay configuraciones de mod disponibles."
       saveButton: "Guardar ajustes"
       sampleValue: "Valor de muestra"
+      pickColor: ~
+      browseFile: ~
+      browseFolder: ~
+      hotkeyEmpty: ~
+      hotkeyNotSet: ~
+      hotkeyPressKey: ~
+      hotkeyClear: ~
+      hotkeyEdit: ~
+      hotkeyKey: ~
+      hotkeyStoredAs: ~
+      hotkeyNotRecorded: ~
+      hotkeyCaptureUnavailable: ~
       arrayItemAdd: "Agregar nuevo elemento"
       arrayItemMoveUp: ~
       arrayItemMoveDown: ~
@@ -583,6 +650,7 @@ app:
     stopCompilation: ~
     preview: "Previsualizar el Mod"
     showLogOutput: "Mostrar salida de registro"
+    remove: ~
     exit: "Salir del modo de edición"
     exitConfirmation: "Los cambios desde la última compilación exitosa se perderán"
     exitButtonOk: "Salir"
@@ -610,6 +678,8 @@ app:
       transparentDescription: ~
     modDetails:
       getWindhawk: ~
+      openInWindhawk: ~
+      notInstalled: ~
     links:
       news: ~
       windhawkNews: ~

@@ -139,6 +139,54 @@ app:
     noDescription: "(keine Beschreibung)"
     users_one: "{{formattedCount}} Benutzer"
     users_other: "{{formattedCount}} Benutzer"
+    reviews_one: ~
+    reviews_other: ~
+    reviews:
+      label: ~
+      title: ~
+      none: ~
+      showMore: ~
+      loadFailed: ~
+      write: ~
+      reply: ~
+      collapse: ~
+      expand: ~
+      vote: ~
+      voted: ~
+      voteFailed: ~
+      undo: ~
+      undoFailed: ~
+      sort:
+        label: ~
+        top: ~
+        newest: ~
+      form:
+        name: ~
+        email: ~
+        emailHint: ~
+        contentHint: ~
+        submit: ~
+        nameRequired: ~
+        nameTooLong: ~
+        emailInvalid: ~
+        review:
+          content: ~
+          version: ~
+          posted: ~
+          failed: ~
+          contentRequired: ~
+          contentTooShort: ~
+          contentTooLong: ~
+          contentInvalid: ~
+        reply:
+          content: ~
+          version: ~
+          posted: ~
+          failed: ~
+          contentRequired: ~
+          contentTooShort: ~
+          contentTooLong: ~
+          contentInvalid: ~
     notRated: "Diese Mod wurde bisher nicht bewertet"
     loggingEnabledInAdvancedTab: "Debug-Protokollierung ist im Erweitert-Register der Mod aktiviert"
   modDetails:
@@ -172,11 +220,29 @@ app:
     details:
       title: "Details"
       noData: "Mod-Details fehlen."
+    modLink:
+      openInBrowser: ~
+      copyLink: ~
+      copied: ~
+      share: ~
+      linkCopied: ~
     settings:
       title: "Einstellungen"
       noData: "Mod-Einstellungen nicht verfügbar."
       saveButton: "Einstellungen speichern"
       sampleValue: "Beispielwert"
+      pickColor: ~
+      browseFile: ~
+      browseFolder: ~
+      hotkeyEmpty: ~
+      hotkeyNotSet: ~
+      hotkeyPressKey: ~
+      hotkeyClear: ~
+      hotkeyEdit: ~
+      hotkeyKey: ~
+      hotkeyStoredAs: ~
+      hotkeyNotRecorded: ~
+      hotkeyCaptureUnavailable: ~
       arrayItemAdd: "Neues Element hinzufügen"
       arrayItemMoveUp: ~
       arrayItemMoveDown: ~
@@ -568,6 +634,7 @@ app:
     stopCompilation: "Kompilierung stoppen"
     preview: "Mod Vorschau"
     showLogOutput: "Zeige Protokoll"
+    remove: ~
     exit: "Bearbeitungsmodus beenden"
     exitConfirmation: "Alle Änderungen seit der letzten erfolgreichen Kompilierung gehen verloren!"
     exitButtonOk: "Verlassen"
@@ -595,6 +662,8 @@ app:
       transparentDescription: "Die Mods, die Windhawk anbietet, sind keine Black Boxes. Jede Mod wird in Form von Quellcode bereitgestellt, der überprüft werden kann, um sicherzustellen, dass die Mod genau das tut, was sie verspricht."
     modDetails:
       getWindhawk: "Hole Windhawk, um diesen Mod zu installieren."
+      openInWindhawk: ~
+      notInstalled: ~
     links:
       news: "Neuigkeiten"
       windhawkNews: "Windhawk-Neuigkeiten – Ramen Software"

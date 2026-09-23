@@ -141,6 +141,56 @@ app:
     users_few: "{{formattedCount}} користувачі"
     users_many: "{{formattedCount}} користувачів"
     users_other: "{{formattedCount}} користувачів"
+    reviews_one: ~
+    reviews_few: ~
+    reviews_many: ~
+    reviews_other: ~
+    reviews:
+      label: ~
+      title: ~
+      none: ~
+      showMore: ~
+      loadFailed: ~
+      write: ~
+      reply: ~
+      collapse: ~
+      expand: ~
+      vote: ~
+      voted: ~
+      voteFailed: ~
+      undo: ~
+      undoFailed: ~
+      sort:
+        label: ~
+        top: ~
+        newest: ~
+      form:
+        name: ~
+        email: ~
+        emailHint: ~
+        contentHint: ~
+        submit: ~
+        nameRequired: ~
+        nameTooLong: ~
+        emailInvalid: ~
+        review:
+          content: ~
+          version: ~
+          posted: ~
+          failed: ~
+          contentRequired: ~
+          contentTooShort: ~
+          contentTooLong: ~
+          contentInvalid: ~
+        reply:
+          content: ~
+          version: ~
+          posted: ~
+          failed: ~
+          contentRequired: ~
+          contentTooShort: ~
+          contentTooLong: ~
+          contentInvalid: ~
     notRated: "Цей мод ще не отримав оцінку"
     loggingEnabledInAdvancedTab: "Журнал налагодження увімкнено в вкладці Додаткові налаштування мода"
   modDetails:
@@ -174,11 +224,29 @@ app:
     details:
       title: "Деталі"
       noData: "Деталі відсутні."
+    modLink:
+      openInBrowser: ~
+      copyLink: ~
+      copied: ~
+      share: ~
+      linkCopied: ~
     settings:
       title: "Налаштування"
       noData: "Налаштування моду відсутні."
       saveButton: "Зберегти зміни"
       sampleValue: "Стандартне значення"
+      pickColor: ~
+      browseFile: ~
+      browseFolder: ~
+      hotkeyEmpty: ~
+      hotkeyNotSet: ~
+      hotkeyPressKey: ~
+      hotkeyClear: ~
+      hotkeyEdit: ~
+      hotkeyKey: ~
+      hotkeyStoredAs: ~
+      hotkeyNotRecorded: ~
+      hotkeyCaptureUnavailable: ~
       arrayItemAdd: "Додати"
       arrayItemMoveUp: "Перемістити елемент вгору"
       arrayItemMoveDown: "Перемістити елемент вниз"
@@ -599,6 +667,7 @@ app:
     stopCompilation: "Зупинити компіляцію"
     preview: "Переглянуті Мод"
     showLogOutput: "Показати вивід логу"
+    remove: ~
     exit: "Вийти з режиму редагування"
     exitConfirmation: "Зміни з часу останньої успішної компіляції буде втрачено"
     exitButtonOk: "Вийти"
@@ -626,6 +695,8 @@ app:
       transparentDescription: "Моди, які пропонує Windhawk, не є «чорними скриньками». Кожен мод поставляється у вигляді вихідного коду, який можна перевірити й переконатися, що він робить саме те, що заявлено."
     modDetails:
       getWindhawk: "Завантажте Windhawk, щоб встановити цей мод"
+      openInWindhawk: ~
+      notInstalled: ~
     links:
       news: "Новини"
       windhawkNews: "Новини Windhawk - Ramen Software"
@@ -646,4 +717,3 @@ app:
       whatsNew: "Що нового"
     footer:
       copyright: "Авторські права"
-

@@ -139,6 +139,54 @@ app:
     noDescription: "(geen beschrijving)"
     users_one: "{{formattedCount}} gebruiker"
     users_other: "{{formattedCount}} gebruikers"
+    reviews_one: ~
+    reviews_other: ~
+    reviews:
+      label: ~
+      title: ~
+      none: ~
+      showMore: ~
+      loadFailed: ~
+      write: ~
+      reply: ~
+      collapse: ~
+      expand: ~
+      vote: ~
+      voted: ~
+      voteFailed: ~
+      undo: ~
+      undoFailed: ~
+      sort:
+        label: ~
+        top: ~
+        newest: ~
+      form:
+        name: ~
+        email: ~
+        emailHint: ~
+        contentHint: ~
+        submit: ~
+        nameRequired: ~
+        nameTooLong: ~
+        emailInvalid: ~
+        review:
+          content: ~
+          version: ~
+          posted: ~
+          failed: ~
+          contentRequired: ~
+          contentTooShort: ~
+          contentTooLong: ~
+          contentInvalid: ~
+        reply:
+          content: ~
+          version: ~
+          posted: ~
+          failed: ~
+          contentRequired: ~
+          contentTooShort: ~
+          contentTooLong: ~
+          contentInvalid: ~
     notRated: "Deze mod is nog niet beoordeeld."
     loggingEnabledInAdvancedTab: "Debug loggen is ingeschakeld in het 'Geavanceerd' tabblad van de mod."
   modDetails:
@@ -172,11 +220,29 @@ app:
     details:
       title: "Details"
       noData: "Details van mod ontbreken."
+    modLink:
+      openInBrowser: ~
+      copyLink: ~
+      copied: ~
+      share: ~
+      linkCopied: ~
     settings:
       title: "Instellingen"
       noData: "Er zijn geen mod-instellingen beschikbaar."
       saveButton: "Instellingen opslaan"
       sampleValue: "Voorbeeldwaarde"
+      pickColor: ~
+      browseFile: ~
+      browseFolder: ~
+      hotkeyEmpty: ~
+      hotkeyNotSet: ~
+      hotkeyPressKey: ~
+      hotkeyClear: ~
+      hotkeyEdit: ~
+      hotkeyKey: ~
+      hotkeyStoredAs: ~
+      hotkeyNotRecorded: ~
+      hotkeyCaptureUnavailable: ~
       arrayItemAdd: "Nieuw item toevoegen"
       arrayItemMoveUp: ~
       arrayItemMoveDown: ~
@@ -568,6 +634,7 @@ app:
     stopCompilation: "Compileren stoppen"
     preview: "Mod voorvertonen"
     showLogOutput: "Loguitvoer weergeven"
+    remove: ~
     exit: "Bewerkingsmodus afsluiten"
     exitConfirmation: "Veranderingen sinds de laatste succesvolle compilering gaan verloren"
     exitButtonOk: "Afsluiten"
@@ -595,6 +662,8 @@ app:
       transparentDescription: "De mods die Windhawk aanbiedt, zijn geen black boxes. Elke mod wordt geleverd in de vorm van broncode, die kan worden gecontroleerd om er zeker van te zijn dat de mod precies doet wat hij belooft."
     modDetails:
       getWindhawk: "Laat Windhawk deze mod installeren."
+      openInWindhawk: ~
+      notInstalled: ~
     links:
       news: "Nieuws"
       windhawkNews: "Windhawk nieuws - Ramen Software"

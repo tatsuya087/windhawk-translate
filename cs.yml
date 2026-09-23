@@ -141,6 +141,56 @@ app:
     users_few: "{{formattedCount}} uživatelé"
     users_many: "{{formattedCount}} uživatelů"
     users_other: "{{formattedCount}} uživatelů"
+    reviews_one: ~
+    reviews_few: ~
+    reviews_many: ~
+    reviews_other: ~
+    reviews:
+      label: ~
+      title: ~
+      none: ~
+      showMore: ~
+      loadFailed: ~
+      write: ~
+      reply: ~
+      collapse: ~
+      expand: ~
+      vote: ~
+      voted: ~
+      voteFailed: ~
+      undo: ~
+      undoFailed: ~
+      sort:
+        label: ~
+        top: ~
+        newest: ~
+      form:
+        name: ~
+        email: ~
+        emailHint: ~
+        contentHint: ~
+        submit: ~
+        nameRequired: ~
+        nameTooLong: ~
+        emailInvalid: ~
+        review:
+          content: ~
+          version: ~
+          posted: ~
+          failed: ~
+          contentRequired: ~
+          contentTooShort: ~
+          contentTooLong: ~
+          contentInvalid: ~
+        reply:
+          content: ~
+          version: ~
+          posted: ~
+          failed: ~
+          contentRequired: ~
+          contentTooShort: ~
+          contentTooLong: ~
+          contentInvalid: ~
     notRated: ~
     loggingEnabledInAdvancedTab: ~
   modDetails:
@@ -174,11 +224,29 @@ app:
     details:
       title: "Popis"
       noData: "Chybí popis úpravy."
+    modLink:
+      openInBrowser: ~
+      copyLink: ~
+      copied: ~
+      share: ~
+      linkCopied: ~
     settings:
       title: "Nastavení"
       noData: "Není k dispozici žádná nastavení úprav."
       saveButton: "Uložit nastavení"
       sampleValue: "Standardní hodnota"
+      pickColor: ~
+      browseFile: ~
+      browseFolder: ~
+      hotkeyEmpty: ~
+      hotkeyNotSet: ~
+      hotkeyPressKey: ~
+      hotkeyClear: ~
+      hotkeyEdit: ~
+      hotkeyKey: ~
+      hotkeyStoredAs: ~
+      hotkeyNotRecorded: ~
+      hotkeyCaptureUnavailable: ~
       arrayItemAdd: "Přidat novou položku"
       arrayItemMoveUp: ~
       arrayItemMoveDown: ~
@@ -598,6 +666,7 @@ app:
     stopCompilation: ~
     preview: "Zobrazit modifikaci"
     showLogOutput: "Zobrazit protokoly"
+    remove: ~
     exit: "Ukončit režim úprav"
     exitConfirmation: "Změny od poslední úspěšné kompilace budou ztraceny"
     exitButtonOk: "Konec"
@@ -625,6 +694,8 @@ app:
       transparentDescription: ~
     modDetails:
       getWindhawk: ~
+      openInWindhawk: ~
+      notInstalled: ~
     links:
       news: ~
       windhawkNews: ~

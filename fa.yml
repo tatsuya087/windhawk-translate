@@ -139,6 +139,54 @@ app:
     noDescription: "(بدون توضیحات)"
     users_one: "{{formattedCount}} کاربر"
     users_other: "{{formattedCount}} کاربر"
+    reviews_one: ~
+    reviews_other: ~
+    reviews:
+      label: ~
+      title: ~
+      none: ~
+      showMore: ~
+      loadFailed: ~
+      write: ~
+      reply: ~
+      collapse: ~
+      expand: ~
+      vote: ~
+      voted: ~
+      voteFailed: ~
+      undo: ~
+      undoFailed: ~
+      sort:
+        label: ~
+        top: ~
+        newest: ~
+      form:
+        name: ~
+        email: ~
+        emailHint: ~
+        contentHint: ~
+        submit: ~
+        nameRequired: ~
+        nameTooLong: ~
+        emailInvalid: ~
+        review:
+          content: ~
+          version: ~
+          posted: ~
+          failed: ~
+          contentRequired: ~
+          contentTooShort: ~
+          contentTooLong: ~
+          contentInvalid: ~
+        reply:
+          content: ~
+          version: ~
+          posted: ~
+          failed: ~
+          contentRequired: ~
+          contentTooShort: ~
+          contentTooLong: ~
+          contentInvalid: ~
     notRated: "به این ماد هنوز امتیازی داده نشده است"
     loggingEnabledInAdvancedTab: "ثبت وقایع دیباگ در زبانه پیشرفته ماد فعال است"
   modDetails:
@@ -172,11 +220,29 @@ app:
     details:
       title: "جزئیات"
       noData: "جزئیات ماد موجود نیست."
+    modLink:
+      openInBrowser: ~
+      copyLink: ~
+      copied: ~
+      share: ~
+      linkCopied: ~
     settings:
       title: "تنظیمات"
       noData: "هیچ تنظیماتی برای این ماد موجود نیست."
       saveButton: "ذخیره تنظیمات"
       sampleValue: "مقدار نمونه"
+      pickColor: ~
+      browseFile: ~
+      browseFolder: ~
+      hotkeyEmpty: ~
+      hotkeyNotSet: ~
+      hotkeyPressKey: ~
+      hotkeyClear: ~
+      hotkeyEdit: ~
+      hotkeyKey: ~
+      hotkeyStoredAs: ~
+      hotkeyNotRecorded: ~
+      hotkeyCaptureUnavailable: ~
       arrayItemAdd: "افزودن مورد جدید"
       arrayItemMoveUp: ~
       arrayItemMoveDown: ~
@@ -568,6 +634,7 @@ app:
     stopCompilation: "توقف کامپایل"
     preview: "پیش‌نمایش ماد"
     showLogOutput: "نمایش خروجی لاگ"
+    remove: ~
     exit: "خروج از حالت ویرایش"
     exitConfirmation: "تغییرات از آخرین کامپایل موفق از دست خواهند رفت"
     exitButtonOk: "خروج"
@@ -595,6 +662,8 @@ app:
       transparentDescription: "مادهایی که ویندهاک ارائه می‌دهد جعبه سیاه نیستند. هر ماد به شکل کد منبع ارائه می‌شود که می‌توان آن را بررسی کرد تا مطمئن شد دقیقاً همان کاری را انجام می‌دهد که گفته شده."
     modDetails:
       getWindhawk: "دریافت ویندهاک برای نصب این ماد"
+      openInWindhawk: ~
+      notInstalled: ~
     links:
       news: "اخبار"
       windhawkNews: "اخبار ویندهاک - Ramen Software"
